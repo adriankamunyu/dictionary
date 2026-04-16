@@ -1,0 +1,36 @@
+:root{
+    --font-inter: "Inter", sans-serif;
+}
+* {
+    background-color: rgb(14, 13, 13);
+    color: gold;
+}
+.container {
+    align-items: center;
+    text-align: center;
+}
+button :hover {
+    background-color: gold;
+    color: black;
+    transform: scale(1.05);
+}
+button {
+    background-color: black;
+    color: gold;
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.05);
+    border-radius: 25px;
+    padding: 5px;
+}
+button:active {
+    background-color: gold;
+    color: black;
+}
+p,h1,h2 {
+    font-family: var(--font-inter);
+}
+input {
+    border-radius: 25px;
+    padding: 5px;
+}
